@@ -1,7 +1,8 @@
 
--- // Made by grim x juniorscripts \\ --
+-- // Gui 2 lua by vFishy / xn90ubwbzuqegtn \\ --
 
 -- // Variables \\ --
+
 local Ocean = {}
 
 local RS 	 = game:GetService("RunService")
@@ -83,7 +84,7 @@ function Ocean:NewWindow()
 		Position = UDim2.fromScale(0.248, 0.220),
 		Size = UDim2.fromScale(0.350, 0.550),
 		Parent = TyrantUI,
-		BackgroundColor3 = Color3.fromRGB(9, 8, 8),
+		BackgroundColor3 = Color3.fromRGB(5, 11, 19),
 		BorderSizePixel = 0,
 		ZIndex = 1
 	})
@@ -93,7 +94,7 @@ function Ocean:NewWindow()
 		Position = UDim2.fromScale(0.311, 0.000),
 		Size = UDim2.new(0, 2, 1, 0),
 		Parent = Main,
-		BackgroundColor3 = Color3.fromRGB(82, 81, 81),
+		BackgroundColor3 = Color3.fromRGB(22, 28, 36),
 		BorderSizePixel = 0,
 		ZIndex = 2
 	})
@@ -103,7 +104,7 @@ function Ocean:NewWindow()
 		Position = UDim2.fromScale(0.311, 0.130),
 		Size = UDim2.new(.689, 0, 0, 2),
 		Parent = Main,
-		BackgroundColor3 = Color3.fromRGB(82, 81, 81),
+		BackgroundColor3 = Color3.fromRGB(22, 28, 36),
 		BorderSizePixel = 0,
 		ZIndex = 2
 	})
@@ -128,7 +129,7 @@ function Ocean:NewWindow()
 		Parent = Main,
 		BackgroundTransparency = 1,
 		Font = Enum.Font.Unknown,
-		Text = '<font color="#ff2a2a">Grim</font>gui',
+		Text = '<font color="#77c2ed">Ocean</font>HackV3',
 		TextScaled = true,
 		TextXAlignment = Enum.TextXAlignment.Center,
 		TextYAlignment = Enum.TextYAlignment.Center,
@@ -172,7 +173,7 @@ function Ocean:NewWindow()
 			Parent = TabHolder,
 			BackgroundTransparency = 1,
 			AutoButtonColor = false,
-			BackgroundColor3 = Color3.fromRGB(220, 13, 13),
+			BackgroundColor3 = Color3.fromRGB(119, 194, 237),
 			BorderSizePixel = 0,
 			ZIndex = 1
 		})
@@ -256,7 +257,7 @@ function Ocean:NewWindow()
 			Parent = Main,
 			BackgroundTransparency = 1,
 			Font = Enum.Font.SourceSans,
-			Text = '52d0szgui / FF2 / <font color="#ff2a2a">'..Title..'</font>',
+			Text = 'Ocean Hack / FF2 / <font color="#77c2ed">'..Title..'</font>',
 			TextScaled = true,
 			TextXAlignment = Enum.TextXAlignment.Left,
 			TextYAlignment = Enum.TextYAlignment.Center,
@@ -276,8 +277,8 @@ function Ocean:NewWindow()
 			end
 			Window.CurrentTab = tab
 			TS:Create(Tab, TweenInfo.new(0.1, Enum.EasingStyle.Quad), {BackgroundTransparency =.5}):Play()
-			TS:Create(TabTitle, TweenInfo.new(0.1, Enum.EasingStyle.Quad), {TextColor3 = Color3.fromRGB(220, 13, 13)}):Play()
-			TS:Create(Icon, TweenInfo.new(0.1, Enum.EasingStyle.Quad), {ImageColor3 = Color3.fromRGB(220, 13, 13)}):Play()
+			TS:Create(TabTitle, TweenInfo.new(0.1, Enum.EasingStyle.Quad), {TextColor3 = Color3.fromRGB(119, 194, 237)}):Play()
+			TS:Create(Icon, TweenInfo.new(0.1, Enum.EasingStyle.Quad), {ImageColor3 = Color3.fromRGB(119, 194, 237)}):Play()
 			Path.Visible = true
 			Canvas.Visible = true
 		end
@@ -313,7 +314,7 @@ function Ocean:NewWindow()
 				Size = UDim2.fromScale(0.900, 0.10),
 				Parent = Canvas,
 				BackgroundTransparency = 0.8999999761581421,
-				BackgroundColor3 = Color3.fromRGB(220, 13, 13),
+				BackgroundColor3 = Color3.fromRGB(119, 194, 237),
 				BorderSizePixel = 0,
 				ZIndex = 1,
 				AutoButtonColor = false
@@ -326,7 +327,7 @@ function Ocean:NewWindow()
 
 			local ToggleStroke_13 = createInstance("UIStroke", {
 				Parent = Toggle,
-				Color = Color3.fromRGB(220, 13, 13),
+				Color = Color3.fromRGB(119, 194, 237),
 				Thickness = 1,
 				Transparency = 0.5
 			})
@@ -398,7 +399,7 @@ function Ocean:NewWindow()
 				
 				if Settings.Value then
 					TS:Create(Switch_15, TweenInfo.new(0.1, Enum.EasingStyle.Sine), {BackgroundColor3 = Color3.fromRGB(52, 51, 74)}):Play()
-					TS:Create(Knob_17, TweenInfo.new(0.1, Enum.EasingStyle.Sine), {BackgroundColor3 = Color3.fromRGB(220, 13, 13)}):Play()
+					TS:Create(Knob_17, TweenInfo.new(0.1, Enum.EasingStyle.Sine), {BackgroundColor3 = Color3.fromRGB(119, 194, 237)}):Play()
 					TS:Create(Knob_17, TweenInfo.new(0.1, Enum.EasingStyle.Sine), {Position = UDim2.fromScale(0.550, 0.500)}):Play()
 				else
 					TS:Create(Switch_15, TweenInfo.new(0.1, Enum.EasingStyle.Sine), {BackgroundColor3 = Color3.fromRGB(56, 56, 56)}):Play()
@@ -434,7 +435,7 @@ function Ocean:NewWindow()
 				Size = UDim2.new(0.900, 0.000, 0.15, 0.000),
 				Parent = Canvas,
 				BackgroundTransparency = 0.8999999761581421,
-				BackgroundColor3 = Color3.fromRGB(220, 13, 13),
+				BackgroundColor3 = Color3.fromRGB(119, 194, 237),
 				BorderSizePixel = 0,
 				ZIndex = 1,
 				AutoButtonColor = false
@@ -447,7 +448,7 @@ function Ocean:NewWindow()
 
 			local SliderStroke = createInstance("UIStroke", {
 				Parent = Slider,
-				Color = Color3.fromRGB(220, 13, 13),
+				Color = Color3.fromRGB(119, 194, 237),
 				Thickness = 1,
 				Transparency = 0.5
 			})
@@ -498,7 +499,7 @@ function Ocean:NewWindow()
 				Size = UDim2.new(0.930, 0.000, 0.000, 4.000),
 				Parent = Slider,
 				AnchorPoint = Vector2.new(0.5, 0),
-				BackgroundColor3 = Color3.fromRGB(220, 13, 13),
+				BackgroundColor3 = Color3.fromRGB(68, 95, 126),
 				BorderSizePixel = 0,
 				ZIndex = 1
 			})
@@ -513,7 +514,7 @@ function Ocean:NewWindow()
 				Position = UDim2.new(0.000, 0.000, 0.000, 0.000),
 				Size = UDim2.new(0.431, 0.000, 0.000, 4.000),
 				Parent = SliderBack,
-				BackgroundColor3 = Color3.fromRGB(220, 13, 13),
+				BackgroundColor3 = Color3.fromRGB(119, 194, 237),
 				BorderSizePixel = 0,
 				ZIndex = 1
 			})
@@ -593,7 +594,7 @@ function Ocean:NewWindow()
 				Size = UDim2.fromScale(0.900, 0.10),
 				Parent = Canvas,
 				BackgroundTransparency = 0.8999999761581421,
-				BackgroundColor3 = Color3.fromRGB(220, 13, 13),
+				BackgroundColor3 = Color3.fromRGB(119, 194, 237),
 				BorderSizePixel = 0,
 				AutoButtonColor = false,
 				ZIndex = 20
@@ -606,7 +607,7 @@ function Ocean:NewWindow()
 
 			local DropdownStroke = createInstance("UIStroke", {
 				Parent = Dropdown,
-				Color = Color3.fromRGB(220, 13, 13),
+				Color = Color3.fromRGB(119, 194, 237),
 				Thickness = 1,
 				Transparency = 0.5
 			})
@@ -711,7 +712,7 @@ function Ocean:NewWindow()
 
 			local DropdownStroke_1 = createInstance("UIStroke", {
 				Parent = OptionHolder,
-				Color = Color3.fromRGB(220, 13, 13),
+				Color = Color3.fromRGB(119, 194, 237),
 				Thickness = 1,
 				Transparency = 0.5
 			})
@@ -1084,7 +1085,7 @@ task.spawn(function()
     AngleNum.Position = UDim2.new(0, 0, 0.132075474, 0)
     AngleNum.BorderSizePixel = 0
     AngleNum.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-    AngleNum.TextColor3 = Color3.fromRGB(220, 13, 13)
+    AngleNum.TextColor3 = Color3.fromRGB(87, 123, 255)
     AngleNum.Text = "45"
     AngleNum.TextSize = 66
     AngleNum.FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
@@ -1125,7 +1126,7 @@ task.spawn(function()
     PowerNum.Position = UDim2.new(0, 0, 0.132075474, 0)
     PowerNum.BorderSizePixel = 0
     PowerNum.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-    PowerNum.TextColor3 = Color3.fromRGB(220, 13, 13)
+    PowerNum.TextColor3 = Color3.fromRGB(87, 123, 255)
     PowerNum.Text = "60"
     PowerNum.TextSize = 70
     PowerNum.FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
@@ -1173,7 +1174,7 @@ task.spawn(function()
     TargetPlr.Position = UDim2.new(0, 0, 0.207547173, 0)
     TargetPlr.BorderSizePixel = 0
     TargetPlr.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-    TargetPlr.TextColor3 = Color3.fromRGB(220, 13, 13)
+    TargetPlr.TextColor3 = Color3.fromRGB(87, 123, 255)
     TargetPlr.Text = "MrCODADUDE"
     TargetPlr.TextSize = 19
     TargetPlr.FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
@@ -1221,7 +1222,7 @@ task.spawn(function()
     ModeText.Position = UDim2.new(0, 0, 0.198113203, 0)
     ModeText.BorderSizePixel = 0
     ModeText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-    ModeText.TextColor3 = Color3.fromRGB(220, 13, 13)
+    ModeText.TextColor3 = Color3.fromRGB(87, 123, 255)
     ModeText.Text = "Dime"
     ModeText.TextSize = 52
     ModeText.FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
@@ -1269,7 +1270,7 @@ task.spawn(function()
     CatchText.Position = UDim2.new(0, 0, 0.179245278, 0)
     CatchText.BorderSizePixel = 0
     CatchText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-    CatchText.TextColor3 = Color3.fromRGB(220, 13, 13)
+    CatchText.TextColor3 = Color3.fromRGB(87, 123, 255)
     CatchText.Text = "Yes"
     CatchText.TextSize = 67
     CatchText.FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
@@ -1318,7 +1319,7 @@ task.spawn(function()
     IntText.BorderSizePixel = 0
     IntText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     IntText.RichText = true
-    IntText.TextColor3 = Color3.fromRGB(220, 13, 13)
+    IntText.TextColor3 = Color3.fromRGB(87, 123, 255)
     IntText.Text = "No"
     IntText.TextSize = 67
     IntText.FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
@@ -1366,7 +1367,7 @@ task.spawn(function()
     airtimetext.Position = UDim2.new(0, 0, 0.179245278, 0)
     airtimetext.BorderSizePixel = 0
     airtimetext.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-    airtimetext.TextColor3 = Color3.fromRGB(220, 13, 13)
+    airtimetext.TextColor3 = Color3.fromRGB(87, 123, 255)
     airtimetext.Text = "2s"
     airtimetext.TextSize = 61
     airtimetext.FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
@@ -1406,8 +1407,8 @@ task.spawn(function()
 	beam.Attachment0 = Attach0
 	beam.Attachment1 = Attach1  
 	beam.Color = ColorSequence.new({
-		ColorSequenceKeypoint.new(0, Color3.fromRGB(220, 13, 13)),
-		ColorSequenceKeypoint.new(1, Color3.fromRGB(220, 13, 13))
+		ColorSequenceKeypoint.new(0, Color3.fromRGB(87, 123, 255)),
+		ColorSequenceKeypoint.new(1, Color3.fromRGB(87, 123, 255))
 })
 beam.Width0 = 0.5
 
@@ -3141,8 +3142,8 @@ local BeOn = false
 				local Attach1 = Instance.new("Attachment", workspace.Terrain)
 		
 				beam.Color = ColorSequence.new({
-					ColorSequenceKeypoint.new(0, Color3.fromRGB(249, 12, 12)),
-					ColorSequenceKeypoint.new(1, Color3.fromRGB(249, 12, 12))
+					ColorSequenceKeypoint.new(0, Color3.fromRGB(87, 123, 255)),
+					ColorSequenceKeypoint.new(1, Color3.fromRGB(87, 123, 255))
 				})
 		
 				beam.Parent = workspace.Terrain
